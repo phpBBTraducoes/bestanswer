@@ -40,8 +40,8 @@ $lang = array_merge($lang, array(
 	'BUTTON_MARK'	=> 'Marcar resposta',
 	'BUTTON_UNMARK'	=> 'Desmarcar resposta',
 
-	'ENABLE_BESTANSWER'			=> 'Ativar melhor resposta',
-	'ENABLE_BESTANSWER_EXPLAIN'	=> 'Se ativado, o iniciador do tópico (se permitido) e os moderadores (quando permitido) poderão marcar uma resposta tópica como a melhor resposta.',
+	'ENABLE_BEST_ANSWER'			=> 'Ativar melhor resposta',
+	'ENABLE_BEST_ANSWER_EXPLAIN'	=> 'Se ativado, o iniciador do tópico (se permitido) e os moderadores (quando permitido) poderão marcar uma resposta tópica como a melhor resposta.',
 
 	'FULL_POST'	=> 'VÁ AO POST COMPLETO',
 
@@ -55,7 +55,6 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_USER_ANSWERS'	=> 'Pesquisar respostas do usuário',
 
-	'TOPIC_FIRST_POST'	=> 'Você não pode marcar esta postagem como a melhor resposta, pois é a primeira postagem do tópico.',
 	'TOTAL_ANSWERES'	=> 'Total de respostas',
 
 	'UNMARK_ANSWER'			=> 'Desmarcar a postagem como melhor resposta',
