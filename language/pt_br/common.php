@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'ANSWERS'	=> 'Respostas',
 
 	'ENABLE_ANSWER'			=> 'Ativar melhor resposta',
-	'ENABLE_ANSWER_EXPLAIN'	=> 'Se ativado, o iniciador do tópico (se permitido) e os moderadores (quando permitido) poderão marcar um post do tópico como a melhor resposta.',
+	'ENABLE_ANSWER_EXPLAIN'	=> 'Se ativado, o autor do tópico (se permitido) e os moderadores (quando permitido) poderão marcar um post do tópico como a melhor resposta.',
 
 	'TO_POST'	=> 'Ir para o post completo',
 
