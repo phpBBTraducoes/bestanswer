@@ -49,10 +49,10 @@ $lang = array_merge($lang, array(
 	'LOG_UNMARK_ANSWER'	=> '<strong>Post desmarcado como melhor resposta</strong><br />» %1$s por %2$s',
 
 	'MARK_ANSWER'			=> 'Marcar resposta',
-	'MARK_ANSWER_CONFIRM'	=> 'Você tem certeza de que deseja marcar esse post como a melhor resposta?',
+	'MARK_ANSWER_CONFIRM'	=> 'Você tem certeza que deseja marcar esse post como a melhor resposta?',
 
 	'TOTAL_ANSWERS'	=> 'Total de respostas',
 
 	'UNMARK_ANSWER'			=> 'Desmarcar resposta',
-	'UNMARK_ANSWER_CONFIRM'	=> 'Você tem certeza de que deseja desmarcar esse post como a melhor resposta?',
+	'UNMARK_ANSWER_CONFIRM'	=> 'Você tem certeza que deseja desmarcar esse post como a melhor resposta?',
 ));
