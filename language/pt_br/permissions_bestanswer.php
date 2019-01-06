@@ -1,13 +1,16 @@
 <?php
-/**
+ /**
  *
- * Best Answer. An extension for the phpBB Forum Software package.
+ * Best Answer extension for the phpBB Forum Software package.
  *
- * @copyright (c) 2017, kinerity
+ * @copyright (c) 2018, kinerity, https://www.layer-3.org/
  * @license GNU General Public License, version 2 (GPL-2.0)
- * Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 1.0.0-dev] (https://github.com/phpBBTraducoes)
+ * Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 1.0.0] (https://github.com/phpBBTraducoes)
  */
 
+/**
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -33,7 +36,8 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste:
 // ’ » “ ” …
 //
+
 $lang = array_merge($lang, array(
-	'ACL_F_MARK_BESTANSWER'	=> 'Pode marcar uma resposta do tópico como a melhor resposta',
-	'ACL_M_MARK_BESTANSWER'	=> 'Pode marcar uma resposta do tópico como a melhor resposta',
+	'ACL_F_MARK_ANSWER'	=> 'Pode marcar uma resposta do tópico como a melhor resposta',
+	'ACL_M_MARK_ANSWER'	=> 'Pode marcar uma resposta do tópico como a melhor resposta',
 ));

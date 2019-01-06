@@ -1,13 +1,16 @@
 <?php
 /**
  *
- * Best Answer. An extension for the phpBB Forum Software package.
+ * Best Answer extension for the phpBB Forum Software package.
  *
- * @copyright (c) 2017, kinerity
+ * @copyright (c) 2018, kinerity, https://www.layer-3.org/
  * @license GNU General Public License, version 2 (GPL-2.0)
- * Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 1.0.0-dev] (https://github.com/phpBBTraducoes)
+ * Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 1.0.0] (https://github.com/phpBBTraducoes)
  */
 
+/**
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -33,19 +36,14 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste:
 // ’ » “ ” …
 //
+
 $lang = array_merge($lang, array(
 	'ANSWERS'	=> 'Answers',
 
-	'BEST_ANSWER'	=> 'Melhor resposta',
-	'BUTTON_MARK'	=> 'Marcar resposta',
-	'BUTTON_UNMARK'	=> 'Desmarcar resposta',
+	'ENABLE_ANSWER'			=> 'Ativar melhor resposta',
+	'ENABLE_ANSWER_EXPLAIN'	=> 'Se ativado, o iniciador do tópico (se permitido) e os moderadores (quando permitido) poderão marcar uma resposta tópica como a melhor resposta.',
 
-	'ENABLE_BEST_ANSWER'			=> 'Ativar melhor resposta',
-	'ENABLE_BEST_ANSWER_EXPLAIN'	=> 'Se ativado, o iniciador do tópico (se permitido) e os moderadores (quando permitido) poderão marcar uma resposta tópica como a melhor resposta.',
-
-	'FULL_POST'	=> 'VÁ AO POST COMPLETO',
-
-	'INVALID_FILTER'	=> 'O parâmetro do filtro é inválido. Verifique se esta variável está correta.',
+	'TO_POST'	=> 'Ir para o post completo',
 
 	'LOG_MARK_ANSWER'	=> '<strong>Postagem marcada como melhor resposta</strong><br />» %1$s por %2$s',
 	'LOG_UNMARK_ANSWER'	=> '<strong>Postagem desmarcada como melhor resposta</strong><br />» %1$s por %2$s',
@@ -53,9 +51,7 @@ $lang = array_merge($lang, array(
 	'MARK_ANSWER'			=> 'Marcar a postagem como melhor resposta',
 	'MARK_ANSWER_CONFIRM'	=> 'Tem certeza de que deseja marcar esta postagem como a melhor resposta?',
 
-	'SEARCH_USER_ANSWERS'	=> 'Pesquisar respostas do usuário',
-
-	'TOTAL_ANSWERES'	=> 'Total de respostas',
+	'TOTAL_ANSWERS'	=> 'Total de respostas',
 
 	'UNMARK_ANSWER'			=> 'Desmarcar a postagem como melhor resposta',
 	'UNMARK_ANSWER_CONFIRM'	=> 'Tem certeza de que deseja desmarcar essa postagem como a melhor resposta?',
